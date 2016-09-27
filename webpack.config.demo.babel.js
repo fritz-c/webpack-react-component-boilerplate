@@ -48,9 +48,9 @@ module.exports = {
                 include: path.join(__dirname, 'src')
             },
             {
-                test: /\.(jpe?g|png|gif)$/,
+                test: /\.(jpe?g|png|gif|ico|svg)$/,
                 loaders: [
-                    'file-loader?name=static/[name]-[hash:6].[ext]',
+                    'file-loader?name=static/[name].[ext]',
                 ],
                 include: path.join(__dirname, 'src')
             },
