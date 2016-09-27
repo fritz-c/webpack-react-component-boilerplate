@@ -12,14 +12,21 @@ class App extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {};
+        this.state = {
+            authorName: 'Your Name',
+            projectName: 'My React Component',
+            authorUrl: 'https://github.com/fritz-c',
+            githubUrl: 'https://github.com/fritz-c/webpack-react-component-boilerplate',
+        };
     }
 
     render() {
-        const projectName = 'My React Component';
-        const authorName = 'Your Name';
-        const authorUrl = 'https://github.com/fritz-c';
-        const githubUrl = 'https://github.com/fritz-c/webpack-react-component-boilerplate';
+        const {
+            authorName,
+            projectName,
+            authorUrl,
+            githubUrl,
+        } = this.state;
 
         return (
             <div>
