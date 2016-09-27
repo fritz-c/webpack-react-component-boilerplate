@@ -1,6 +1,6 @@
 # Webpack React Component Boilerplate
 
-![Package Logo](https://cloud.githubusercontent.com/assets/4413963/18860339/51400464-84b7-11e6-9209-351d931960ac.png)
+[![Package Logo](https://cloud.githubusercontent.com/assets/4413963/18860339/51400464-84b7-11e6-9209-351d931960ac.png)](https://github.com/fritz-c/webpack-react-component-boilerplate)
 
 Yet another opinionated React component boilerplate (but with Webkit!). Please make it your own - change the license, remove the linter, or maybe even add some functionality.
 
