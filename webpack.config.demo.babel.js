@@ -28,7 +28,7 @@ module.exports = {
         }),
     ],
     postcss: [
-        autoprefixer({ browsers: ['IE >= 9', '> 1%'] }),
+        autoprefixer({ browsers: ['IE >= 9', 'last 2 versions', '> 1%'] }),
     ],
     module: {
         loaders: [
@@ -41,7 +41,7 @@ module.exports = {
                 test: /\.scss$/,
                 loaders: [
                     'style-loader?insertAt=top',
-                    'css-loader?modules&importLoaders=1&localIdentName=[local]___[hash:base64:5]',
+                    'css-loader?modules&-autoprefixer&importLoaders=1&localIdentName=[local]___[hash:base64:5]',
                     'postcss-loader',
                     'sass-loader',
                 ],
